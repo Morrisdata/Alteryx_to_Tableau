@@ -1,0 +1,606 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="2018.3">
+  <Nodes>
+    <Node ToolID="2">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="18" y="438" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File RecordLimit="" FileFormat="23">aka:AWS(ILS)|||Select * From products</File>
+          <FormatSpecificOptions>
+            <PreSQLOnConfig>True</PreSQLOnConfig>
+            <ReadCentroids>False</ReadCentroids>
+            <NoProgress>True</NoProgress>
+            <ReadUncommitted>False</ReadUncommitted>
+            <TableStyle>Quoted</TableStyle>
+            <PreSQL />
+            <PostSQL />
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <AnnotationText>Products</AnnotationText>
+          <DefaultAnnotationText>aka:AWS(ILS)
+Table=Select * From products</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field description="PrimaryKey" name="item_no" source="File: aka:AWS(ILS)|||Select * From products" type="Int32" />
+            <Field name="category_name" size="16777216" source="File: aka:AWS(ILS)|||Select * From products" type="V_String" />
+            <Field name="item_description" size="16777216" source="File: aka:AWS(ILS)|||Select * From products" type="V_String" />
+            <Field name="vendor" source="File: aka:AWS(ILS)|||Select * From products" type="Int32" />
+            <Field name="vendor_name" size="16777216" source="File: aka:AWS(ILS)|||Select * From products" type="V_String" />
+            <Field name="bottle_size" source="File: aka:AWS(ILS)|||Select * From products" type="Int32" />
+            <Field name="pack" source="File: aka:AWS(ILS)|||Select * From products" type="Int32" />
+            <Field name="inner_pack" source="File: aka:AWS(ILS)|||Select * From products" type="Int32" />
+            <Field name="age" size="16777216" source="File: aka:AWS(ILS)|||Select * From products" type="V_String" />
+            <Field name="proof" size="16777216" source="File: aka:AWS(ILS)|||Select * From products" type="V_String" />
+            <Field name="list_date" source="File: aka:AWS(ILS)|||Select * From products" type="DateTime" />
+            <Field name="upc" size="16777216" source="File: aka:AWS(ILS)|||Select * From products" type="V_String" />
+            <Field name="scc" size="16777216" source="File: aka:AWS(ILS)|||Select * From products" type="V_String" />
+            <Field name="bottle_price" source="File: aka:AWS(ILS)|||Select * From products" type="Double" />
+            <Field name="shelf_price" scale="2" size="12" source="File: aka:AWS(ILS)|||Select * From products" type="FixedDecimal" />
+            <Field name="case_cost" scale="2" size="12" source="File: aka:AWS(ILS)|||Select * From products" type="FixedDecimal" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="3">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+        <Position x="126" y="438" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Expression>[shelf_price] &gt;20</Expression>
+          <Mode>Custom</Mode>
+          <Simple>
+            <Operator>=</Operator>
+            <Field>
+            </Field>
+            <Operands>
+              <IgnoreTimeInDateTime>True</IgnoreTimeInDateTime>
+              <DateType>fixed</DateType>
+              <PeriodDate>2018-09-09 21:09:22</PeriodDate>
+              <PeriodType>
+              </PeriodType>
+              <PeriodCount>0</PeriodCount>
+              <Operand>
+              </Operand>
+              <StartDate>2018-09-09 21:09:22</StartDate>
+              <EndDate>2018-09-09 21:09:22</EndDate>
+            </Operands>
+          </Simple>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>[shelf_price] &gt;20</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+    </Node>
+    <Node ToolID="4">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="270" y="426" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="bottle_size" selected="False" />
+            <SelectField field="age" selected="False" />
+            <SelectField field="upc" selected="False" />
+            <SelectField field="scc" selected="False" />
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="8">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="18" y="270" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <CachedCosmeticName />
+          <File RecordLimit="" FileFormat="23">aka:AWS(ILS)|||Select * From counties</File>
+          <FormatSpecificOptions>
+            <PreSQLOnConfig>True</PreSQLOnConfig>
+            <ReadCentroids>False</ReadCentroids>
+            <NoProgress>True</NoProgress>
+            <ReadUncommitted>False</ReadUncommitted>
+            <TableStyle>Quoted</TableStyle>
+            <PreSQL />
+            <PostSQL />
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <AnnotationText>Counties</AnnotationText>
+          <DefaultAnnotationText>aka:AWS(ILS)
+Table=Select * From counties</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="county" size="16777216" source="File: aka:AWS(ILS)|||Select * From counties" type="V_String" />
+            <Field name="population" source="File: aka:AWS(ILS)|||Select * From counties" type="Int32" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="9">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+        <Position x="126" y="270" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Expression>[population] &gt;= 20000</Expression>
+          <Mode>Custom</Mode>
+          <Simple>
+            <Operator>=</Operator>
+            <Field>
+            </Field>
+            <Operands>
+              <IgnoreTimeInDateTime>True</IgnoreTimeInDateTime>
+              <DateType>fixed</DateType>
+              <PeriodDate>2018-09-09 21:40:11</PeriodDate>
+              <PeriodType>
+              </PeriodType>
+              <PeriodCount>0</PeriodCount>
+              <Operand>
+              </Operand>
+              <StartDate>2018-09-09 21:40:11</StartDate>
+              <EndDate>2018-09-09 21:40:11</EndDate>
+            </Operands>
+          </Simple>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>[population] &gt;= 20000</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+    </Node>
+    <Node ToolID="10">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="270" y="258" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="11">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="18" y="354" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File RecordLimit="" FileFormat="23">aka:AWS(ILS)|||Select * From stores</File>
+          <FormatSpecificOptions>
+            <PreSQLOnConfig>True</PreSQLOnConfig>
+            <ReadCentroids>False</ReadCentroids>
+            <NoProgress>True</NoProgress>
+            <ReadUncommitted>False</ReadUncommitted>
+            <TableStyle>Quoted</TableStyle>
+            <PreSQL />
+            <PostSQL />
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <AnnotationText>Stores</AnnotationText>
+          <DefaultAnnotationText>aka:AWS(ILS)
+Table=Select * From stores</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field description="PrimaryKey" name="store" source="File: aka:AWS(ILS)|||Select * From stores" type="Int32" />
+            <Field name="name" size="16777216" source="File: aka:AWS(ILS)|||Select * From stores" type="V_String" />
+            <Field name="store_status" size="16777216" source="File: aka:AWS(ILS)|||Select * From stores" type="V_String" />
+            <Field name="store_address" size="16777216" source="File: aka:AWS(ILS)|||Select * From stores" type="V_String" />
+            <Field name="address_info" size="16777216" source="File: aka:AWS(ILS)|||Select * From stores" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="12">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+        <Position x="126" y="354" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Expression>[store_status] = "A"</Expression>
+          <Mode>Simple</Mode>
+          <Simple>
+            <Operator>=</Operator>
+            <Field>store_status</Field>
+            <Operands>
+              <IgnoreTimeInDateTime>True</IgnoreTimeInDateTime>
+              <DateType>fixed</DateType>
+              <PeriodDate>2018-09-09 21:45:44</PeriodDate>
+              <PeriodType>
+              </PeriodType>
+              <PeriodCount>0</PeriodCount>
+              <Operand>A</Operand>
+              <StartDate>2018-09-09 21:45:44</StartDate>
+              <EndDate>2018-09-09 21:45:44</EndDate>
+            </Operands>
+          </Simple>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>[store_status] = "A"</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+    </Node>
+    <Node ToolID="13">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="270" y="342" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="store_status" selected="False" />
+            <SelectField field="store_address" selected="False" />
+            <SelectField field="address_info" selected="False" />
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="17">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="18" y="150" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File RecordLimit="" FileFormat="23">aka:AWS(ILS)|||Select * From sales</File>
+          <FormatSpecificOptions>
+            <PreSQLOnConfig>True</PreSQLOnConfig>
+            <ReadCentroids>False</ReadCentroids>
+            <NoProgress>True</NoProgress>
+            <ReadUncommitted>False</ReadUncommitted>
+            <TableStyle>Quoted</TableStyle>
+            <PreSQL />
+            <PostSQL />
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>aka:AWS(ILS)
+Table=Select * From sales</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="date" source="File: aka:AWS(ILS)|||Select * From sales" type="DateTime" />
+            <Field name="convenience_store" size="16777216" source="File: aka:AWS(ILS)|||Select * From sales" type="V_String" />
+            <Field name="store" source="File: aka:AWS(ILS)|||Select * From sales" type="Int32" />
+            <Field name="county_number" size="16777216" source="File: aka:AWS(ILS)|||Select * From sales" type="V_String" />
+            <Field name="county" size="16777216" source="File: aka:AWS(ILS)|||Select * From sales" type="V_String" />
+            <Field name="category" size="16777216" source="File: aka:AWS(ILS)|||Select * From sales" type="V_String" />
+            <Field name="category_name" size="16777216" source="File: aka:AWS(ILS)|||Select * From sales" type="V_String" />
+            <Field name="vendor_no" size="16777216" source="File: aka:AWS(ILS)|||Select * From sales" type="V_String" />
+            <Field name="vendor" size="16777216" source="File: aka:AWS(ILS)|||Select * From sales" type="V_String" />
+            <Field name="item" source="File: aka:AWS(ILS)|||Select * From sales" type="Int32" />
+            <Field name="description" size="16777216" source="File: aka:AWS(ILS)|||Select * From sales" type="V_String" />
+            <Field name="pack" source="File: aka:AWS(ILS)|||Select * From sales" type="Int32" />
+            <Field name="liter_size" source="File: aka:AWS(ILS)|||Select * From sales" type="Int32" />
+            <Field name="state_btl_cost" source="File: aka:AWS(ILS)|||Select * From sales" type="Double" />
+            <Field name="btl_price" source="File: aka:AWS(ILS)|||Select * From sales" type="Double" />
+            <Field name="bottle_qty" source="File: aka:AWS(ILS)|||Select * From sales" type="Int32" />
+            <Field name="total" scale="2" size="12" source="File: aka:AWS(ILS)|||Select * From sales" type="FixedDecimal" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="21">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
+        <Position x="354" y="162" />
+      </GuiSettings>
+      <Properties>
+        <Configuration joinByRecordPos="False">
+          <JoinInfo connection="Left">
+            <Field field="county" />
+          </JoinInfo>
+          <JoinInfo connection="Right">
+            <Field field="county" />
+          </JoinInfo>
+          <SelectConfiguration>
+            <Configuration outputConnection="Join">
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="*Unknown" selected="True" />
+              </SelectFields>
+            </Configuration>
+          </SelectConfiguration>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJoin" />
+    </Node>
+    <Node ToolID="22">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
+        <Position x="438" y="282" />
+      </GuiSettings>
+      <Properties>
+        <Configuration joinByRecordPos="False">
+          <JoinInfo connection="Left">
+            <Field field="store" />
+          </JoinInfo>
+          <JoinInfo connection="Right">
+            <Field field="store" />
+          </JoinInfo>
+          <SelectConfiguration>
+            <Configuration outputConnection="Join">
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="*Unknown" selected="True" />
+              </SelectFields>
+            </Configuration>
+          </SelectConfiguration>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJoin" />
+    </Node>
+    <Node ToolID="23">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
+        <Position x="582" y="294" />
+      </GuiSettings>
+      <Properties>
+        <Configuration joinByRecordPos="False">
+          <JoinInfo connection="Left">
+            <Field field="item" />
+          </JoinInfo>
+          <JoinInfo connection="Right">
+            <Field field="item_no" />
+          </JoinInfo>
+          <SelectConfiguration>
+            <Configuration outputConnection="Join">
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="*Unknown" selected="True" />
+              </SelectFields>
+            </Configuration>
+          </SelectConfiguration>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJoin" />
+    </Node>
+    <Node ToolID="25">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+        <Position x="690" y="294" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <File FileFormat="42" MaxRecords="">C:\Users\Matthew\Desktop\ILS.tde</File>
+          <Passwords />
+          <FormatSpecificOptions>
+            <OutputOption>Create</OutputOption>
+          </FormatSpecificOptions>
+          <MultiFile value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>ILS.tde</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+    </Node>
+    <Node ToolID="26">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="18" y="6" width="804" height="132" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>EXERCISE</Text>
+          <Font name="Segoe UI" size="20.25" style="0" />
+          <TextColor name="White" />
+          <FillColor r="22" g="145" b="198" />
+          <Shape shape="0" />
+          <Justification Justification="0" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="27">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="234" y="18" width="588" height="108" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text><![CDATA[Join all 4 tables:C
+Counties where population >= 20000 
+Stores are active
+Shelf Price > 20
+Select all fields from Sales and Counties.
+Select Store and name from Stores
+Select all fields from Products except; Bottle_size, age, upc, scc
+Export to a tde file
+]]></Text>
+          <Font name="Segoe UI" size="9" style="0" />
+          <TextColor name="White" />
+          <FillColor r="111" g="111" b="111" />
+          <Shape shape="3" />
+          <Justification Justification="0" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="2" Connection="Output" />
+      <Destination ToolID="3" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="3" Connection="True" />
+      <Destination ToolID="4" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="4" Connection="Output" />
+      <Destination ToolID="23" Connection="Right" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="22" Connection="Join" />
+      <Destination ToolID="23" Connection="Left" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="8" Connection="Output" />
+      <Destination ToolID="9" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="9" Connection="True" />
+      <Destination ToolID="10" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="10" Connection="Output" />
+      <Destination ToolID="21" Connection="Right" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="17" Connection="Output" />
+      <Destination ToolID="21" Connection="Left" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="11" Connection="Output" />
+      <Destination ToolID="12" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="12" Connection="True" />
+      <Destination ToolID="13" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="13" Connection="Output" />
+      <Destination ToolID="22" Connection="Right" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="21" Connection="Join" />
+      <Destination ToolID="22" Connection="Left" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="23" Connection="Join" />
+      <Destination ToolID="25" Connection="Input" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>05_PROJECT_DATA_PREP_blank</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+  </Properties>
+</AlteryxDocument>

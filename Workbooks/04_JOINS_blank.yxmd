@@ -1,0 +1,570 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="2018.3">
+  <Nodes>
+    <Node ToolID="1">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="54" y="6" width="804" height="60" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>JOINS</Text>
+          <Font name="Segoe UI" size="20.25" style="0" />
+          <TextColor name="White" />
+          <FillColor r="22" g="145" b="198" />
+          <Shape shape="0" />
+          <Justification Justification="0" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="2">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="486" y="642" width="516" height="60" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>AUTO CAST, GROUP BY, HAVING</Text>
+          <Font name="Segoe UI" size="9" style="0" />
+          <TextColor name="White" />
+          <FillColor r="111" g="111" b="111" />
+          <Shape shape="3" />
+          <Justification Justification="0" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="5">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="78" y="2382" width="804" height="72" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>EXERCISE</Text>
+          <Font name="Segoe UI" size="20.25" style="0" />
+          <TextColor name="White" />
+          <FillColor r="22" g="145" b="198" />
+          <Shape shape="0" />
+          <Justification Justification="0" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="6">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="294" y="2358" width="492" height="108" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Add a join to products where the vendor = 305 and to stores where stores are Active. All 4 tables should be joined together to give 3 results for left,inner and right join browsing tools</Text>
+          <Font name="Segoe UI" size="9" style="0" />
+          <TextColor name="White" />
+          <FillColor r="111" g="111" b="111" />
+          <Shape shape="3" />
+          <Justification Justification="0" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="7">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="810" y="738" width="492" height="120" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text><![CDATA[LIMIT - For now limit has to be done in the SQL EDITOR later on you can get to this using 2 nodes( record ID and Filter) It is always a great idea to limit your data as you are testing and developing and its also great to use with sort to get your top n or bottom n                                    SELECT - Here you can omit fields you don't want to see, easily CAST them as different data types and rename your fields.                                  ]]></Text>
+          <Font name="Segoe UI" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="3" />
+          <Justification Justification="3" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="8">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="54" y="714" width="564" height="24" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>INNER, LEFT OUTER, RIGHT OUTER</Text>
+          <Font name="Segoe UI" size="9.75" style="0" />
+          <TextColor name="White" />
+          <FillColor r="22" g="145" b="198" />
+          <Shape shape="0" />
+          <Justification Justification="0" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="49">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="66" y="1158" width="564" height="24" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>FULL OUTER JOIN</Text>
+          <Font name="Segoe UI" size="9.75" style="0" />
+          <TextColor name="White" />
+          <FillColor r="22" g="145" b="198" />
+          <Shape shape="0" />
+          <Justification Justification="0" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="84">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="66" y="1482" width="564" height="24" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>EXCEPTION JOIN</Text>
+          <Font name="Segoe UI" size="9.75" style="0" />
+          <TextColor name="White" />
+          <FillColor r="22" g="145" b="198" />
+          <Shape shape="0" />
+          <Justification Justification="0" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="96">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="54" y="102" width="564" height="24" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>INNER, LEFT OUTER, RIGHT OUTER</Text>
+          <Font name="Segoe UI" size="9.75" style="0" />
+          <TextColor name="White" />
+          <FillColor r="22" g="145" b="198" />
+          <Shape shape="0" />
+          <Justification Justification="0" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="107">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="54" y="1938" width="564" height="24" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>MULTIPLE INPUT JOIN</Text>
+          <Font name="Segoe UI" size="9.75" style="0" />
+          <TextColor name="White" />
+          <FillColor r="22" g="145" b="198" />
+          <Shape shape="0" />
+          <Justification Justification="0" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="105">
+      <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
+        <Position x="66" y="150" width="136.4582" height="50" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Caption>Container 29</Caption>
+          <Style TextColor="#314c4a" FillColor="#ecf2f2" BorderColor="#314c4a" Transparency="25" Margin="25" />
+          <Disabled value="False" />
+          <Folded value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <ChildNodes />
+    </Node>
+    <Node ToolID="15">
+      <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
+        <Position x="54" y="1986" width="176.6662" height="50" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Caption>MULTIPLE FILTERS</Caption>
+          <Style TextColor="#314c4a" FillColor="#ecf2f2" BorderColor="#314c4a" Transparency="25" Margin="25" />
+          <Disabled value="False" />
+          <Folded value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <ChildNodes />
+    </Node>
+    <Node ToolID="93">
+      <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
+        <Position x="66" y="1530" width="136.4582" height="50" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Caption>Container 29</Caption>
+          <Style TextColor="#314c4a" FillColor="#ecf2f2" BorderColor="#314c4a" Transparency="25" Margin="25" />
+          <Disabled value="False" />
+          <Folded value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <ChildNodes />
+    </Node>
+    <Node ToolID="29">
+      <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
+        <Position x="54" y="774" width="136.4582" height="50" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Caption>Container 29</Caption>
+          <Style TextColor="#314c4a" FillColor="#ecf2f2" BorderColor="#314c4a" Transparency="25" Margin="25" />
+          <Disabled value="False" />
+          <Folded value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <ChildNodes />
+    </Node>
+    <Node ToolID="83">
+      <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
+        <Position x="66" y="1206" width="136.4582" height="50" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Caption>Container 29</Caption>
+          <Style TextColor="#314c4a" FillColor="#ecf2f2" BorderColor="#314c4a" Transparency="25" Margin="25" />
+          <Disabled value="False" />
+          <Folded value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <ChildNodes />
+    </Node>
+    <Node ToolID="114">
+      <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
+        <Position x="101" y="2494" width="460" height="324" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Caption>Container 29</Caption>
+          <Style TextColor="#314c4a" FillColor="#ecf2f2" BorderColor="#314c4a" Transparency="25" Margin="25" />
+          <Disabled value="False" />
+          <Folded value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <ChildNodes>
+        <Node ToolID="113">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+            <Position x="438" y="2538" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <TempFile>
+              </TempFile>
+              <TempFileDataProfiling />
+              <Layout>
+                <ViewMode>Single</ViewMode>
+                <ViewSize value="100" />
+                <View1>
+                  <DefaultTab>Profile</DefaultTab>
+                  <Hints>
+                    <Table />
+                  </Hints>
+                </View1>
+                <View2 />
+              </Layout>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <AnnotationText>Left Outer Join</AnnotationText>
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+        </Node>
+        <Node ToolID="112">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+            <Position x="438" y="2718" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <TempFile>
+              </TempFile>
+              <TempFileDataProfiling />
+              <Layout>
+                <ViewMode>Single</ViewMode>
+                <ViewSize value="100" />
+                <View1>
+                  <DefaultTab>Profile</DefaultTab>
+                  <Hints>
+                    <Table />
+                  </Hints>
+                </View1>
+                <View2 />
+              </Layout>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <AnnotationText>Right Outer Join</AnnotationText>
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+        </Node>
+        <Node ToolID="111">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
+            <Position x="318" y="2634" />
+          </GuiSettings>
+          <Properties>
+            <Configuration joinByRecordPos="False">
+              <JoinInfo connection="Left">
+                <Field field="county" />
+              </JoinInfo>
+              <JoinInfo connection="Right">
+                <Field field="county" />
+              </JoinInfo>
+              <SelectConfiguration>
+                <Configuration outputConnection="Join">
+                  <OrderChanged value="False" />
+                  <CommaDecimal value="False" />
+                  <SelectFields>
+                    <SelectField field="Left_county" selected="True" />
+                    <SelectField field="Right_county" selected="True" />
+                    <SelectField field="Left_Count" selected="True" />
+                    <SelectField field="Right_Count" selected="True" />
+                    <SelectField field="*Unknown" selected="False" />
+                  </SelectFields>
+                </Configuration>
+              </SelectConfiguration>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJoin" />
+        </Node>
+        <Node ToolID="110">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+            <Position x="438" y="2634" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <TempFile>
+              </TempFile>
+              <TempFileDataProfiling />
+              <Layout>
+                <ViewMode>Single</ViewMode>
+                <ViewSize value="100" />
+                <View1>
+                  <DefaultTab>Profile</DefaultTab>
+                  <Hints>
+                    <Table />
+                  </Hints>
+                </View1>
+                <View2 />
+              </Layout>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <AnnotationText>Inner Join</AnnotationText>
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+        </Node>
+        <Node ToolID="109">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+            <Position x="126" y="2694" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Passwords />
+              <File RecordLimit="" FileFormat="23">aka:AWS(ILS)|||Select counties.county From counties</File>
+              <FormatSpecificOptions>
+                <PreSQLOnConfig>True</PreSQLOnConfig>
+                <ReadCentroids>False</ReadCentroids>
+                <NoProgress>True</NoProgress>
+                <ReadUncommitted>False</ReadUncommitted>
+                <TableStyle>Quoted</TableStyle>
+                <PreSQL />
+                <PostSQL />
+              </FormatSpecificOptions>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <AnnotationText>counties</AnnotationText>
+              <DefaultAnnotationText>aka:AWS(ILS)
+Table=Select counties.county From counties</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="county" size="16777216" source="File: aka:AWS(ILS)|||Select counties.county From counties" type="V_String" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+        </Node>
+        <Node ToolID="108">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+            <Position x="126" y="2574" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Passwords />
+              <File RecordLimit="" FileFormat="23">aka:AWS(ILS)|||Select Distinct sales.county From sales</File>
+              <FormatSpecificOptions>
+                <PreSQLOnConfig>True</PreSQLOnConfig>
+                <ReadCentroids>False</ReadCentroids>
+                <NoProgress>True</NoProgress>
+                <ReadUncommitted>False</ReadUncommitted>
+                <TableStyle>Quoted</TableStyle>
+                <PreSQL />
+                <PostSQL />
+              </FormatSpecificOptions>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <AnnotationText><![CDATA[ sales]]></AnnotationText>
+              <DefaultAnnotationText>aka:AWS(ILS)
+Table=Select Distinct sales.county From sales</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="county" size="16777216" source="File: aka:AWS(ILS)|||Select Distinct sales.county From sales" type="V_String" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+        </Node>
+      </ChildNodes>
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="111" Connection="Right" />
+      <Destination ToolID="112" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="111" Connection="Left" />
+      <Destination ToolID="113" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="111" Connection="Join" />
+      <Destination ToolID="110" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="109" Connection="Output" />
+      <Destination ToolID="111" Connection="Right" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="108" Connection="Output" />
+      <Destination ToolID="111" Connection="Left" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>04_JOINS_blank</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+  </Properties>
+</AlteryxDocument>

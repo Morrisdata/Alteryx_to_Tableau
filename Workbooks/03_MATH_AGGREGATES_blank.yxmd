@@ -1,0 +1,684 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="2018.3">
+  <Nodes>
+    <Node ToolID="1">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="54" y="54" width="804" height="60" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>MATH AND AGGREGATES</Text>
+          <Font name="Segoe UI" size="20.25" style="0" />
+          <TextColor name="White" />
+          <FillColor r="22" g="145" b="198" />
+          <Shape shape="0" />
+          <Justification Justification="0" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="2">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="486" y="54" width="516" height="60" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>INPUT DATA, CONTAINERS, BROWSE, OUTPUT DATA</Text>
+          <Font name="Segoe UI" size="9" style="0" />
+          <TextColor name="White" />
+          <FillColor r="111" g="111" b="111" />
+          <Shape shape="3" />
+          <Justification Justification="0" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="4">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="282" y="354" width="576" height="60" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text />
+          <Font name="Segoe UI" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="3" />
+          <Justification Justification="0" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="6">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="378" y="414" width="492" height="108" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Use basic math principles to determine if case cost is a discount to the customer or to the store</Text>
+          <Font name="Segoe UI" size="9" style="0" />
+          <TextColor name="White" />
+          <FillColor r="111" g="111" b="111" />
+          <Shape shape="3" />
+          <Justification Justification="0" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="7">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="630" y="162" width="492" height="120" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>FORMULAS - This is where you have some freedom to put in your math formulas or if then else statements etc.  It is important to become familiar with creating new fields and navigating them. 
+
+Subtract bottle_price from shelf price</Text>
+          <Font name="Segoe UI" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="3" />
+          <Justification Justification="3" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="8">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="54" y="126" width="564" height="24" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>BASIC MATH</Text>
+          <Font name="Segoe UI" size="9.75" style="0" />
+          <TextColor name="White" />
+          <FillColor r="22" g="145" b="198" />
+          <Shape shape="0" />
+          <Justification Justification="0" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="41">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="54" y="774" width="804" height="72" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>EXERCISE</Text>
+          <Font name="Segoe UI" size="20.25" style="0" />
+          <TextColor name="White" />
+          <FillColor r="22" g="145" b="198" />
+          <Shape shape="0" />
+          <Justification Justification="0" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="46">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="642" y="414" width="492" height="120" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text><![CDATA[BASIC SUMMARY - Just like in SQL whenever you sum a measure and you have a dimension present, you will need to group by those dimensions.
+
+count all stores, active stores and inactive stores. Later we will union the results. ]]></Text>
+          <Font name="Segoe UI" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="3" />
+          <Justification Justification="3" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="47">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="258" y="798" width="588" height="24" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Using basic math formulas determine if Case Cost is a discount for the store or for the customer</Text>
+          <Font name="Segoe UI" size="9.75" style="0" />
+          <TextColor name="White" />
+          <FillColor name="White" />
+          <Shape shape="3" />
+          <Justification Justification="3" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="24">
+      <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
+        <Position x="65" y="154" width="541" height="175" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Caption>MULTIPLE FILTERS</Caption>
+          <Style TextColor="#314c4a" FillColor="#ecf2f2" BorderColor="#314c4a" Transparency="25" Margin="25" />
+          <Disabled value="False" />
+          <Folded value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <ChildNodes>
+        <Node ToolID="19">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+            <Position x="90" y="210" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Passwords />
+              <CachedCosmeticName />
+              <File RecordLimit="" FileFormat="23">aka:AWS(ILS)|||Select * From products Limit 1000</File>
+              <FormatSpecificOptions>
+                <PreSQLOnConfig>True</PreSQLOnConfig>
+                <ReadCentroids>False</ReadCentroids>
+                <NoProgress>True</NoProgress>
+                <ReadUncommitted>False</ReadUncommitted>
+                <TableStyle>Quoted</TableStyle>
+                <PreSQL />
+                <PostSQL />
+              </FormatSpecificOptions>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <AnnotationText>Products</AnnotationText>
+              <DefaultAnnotationText>aka:AWS(ILS)
+Table=Select * From products Limit 1000</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+            <Dependencies>
+              <Implicit />
+            </Dependencies>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="item_no" source="File: aka:AWS(ILS)|||Select * From products Limit 1000" type="Int32" />
+                <Field name="category_name" size="16777216" source="File: aka:AWS(ILS)|||Select * From products Limit 1000" type="V_String" />
+                <Field name="item_description" size="16777216" source="File: aka:AWS(ILS)|||Select * From products Limit 1000" type="V_String" />
+                <Field name="vendor" source="File: aka:AWS(ILS)|||Select * From products Limit 1000" type="Int32" />
+                <Field name="vendor_name" size="16777216" source="File: aka:AWS(ILS)|||Select * From products Limit 1000" type="V_String" />
+                <Field name="bottle_size" source="File: aka:AWS(ILS)|||Select * From products Limit 1000" type="Int32" />
+                <Field name="pack" source="File: aka:AWS(ILS)|||Select * From products Limit 1000" type="Int32" />
+                <Field name="inner_pack" source="File: aka:AWS(ILS)|||Select * From products Limit 1000" type="Int32" />
+                <Field name="age" size="16777216" source="File: aka:AWS(ILS)|||Select * From products Limit 1000" type="V_String" />
+                <Field name="proof" size="16777216" source="File: aka:AWS(ILS)|||Select * From products Limit 1000" type="V_String" />
+                <Field name="list_date" source="File: aka:AWS(ILS)|||Select * From products Limit 1000" type="DateTime" />
+                <Field name="upc" size="16777216" source="File: aka:AWS(ILS)|||Select * From products Limit 1000" type="V_String" />
+                <Field name="scc" size="16777216" source="File: aka:AWS(ILS)|||Select * From products Limit 1000" type="V_String" />
+                <Field name="bottle_price" source="File: aka:AWS(ILS)|||Select * From products Limit 1000" type="Double" />
+                <Field name="shelf_price" scale="2" size="12" source="File: aka:AWS(ILS)|||Select * From products Limit 1000" type="FixedDecimal" />
+                <Field name="case_cost" scale="2" size="12" source="File: aka:AWS(ILS)|||Select * From products Limit 1000" type="FixedDecimal" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+        </Node>
+        <Node ToolID="20">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+            <Position x="174" y="210" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="item_no" selected="False" />
+                <SelectField field="item_description" selected="False" />
+                <SelectField field="vendor_name" selected="False" />
+                <SelectField field="bottle_size" selected="False" />
+                <SelectField field="age" selected="False" />
+                <SelectField field="proof" selected="False" />
+                <SelectField field="list_date" selected="False" />
+                <SelectField field="upc" selected="False" />
+                <SelectField field="scc" selected="False" />
+                <SelectField field="*Unknown" selected="True" />
+              </SelectFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+        </Node>
+        <Node ToolID="21">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+            <Position x="258" y="210" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Expression>[vendor] &gt;= 300</Expression>
+              <Mode>Simple</Mode>
+              <Simple>
+                <Operator>&gt;=</Operator>
+                <Field>vendor</Field>
+                <Operands>
+                  <IgnoreTimeInDateTime>True</IgnoreTimeInDateTime>
+                  <DateType>fixed</DateType>
+                  <PeriodDate>2018-09-07 13:44:48</PeriodDate>
+                  <PeriodType>
+                  </PeriodType>
+                  <PeriodCount>0</PeriodCount>
+                  <Operand>300</Operand>
+                  <StartDate>2018-09-07 13:44:48</StartDate>
+                  <EndDate>2018-09-07 13:44:48</EndDate>
+                </Operands>
+              </Simple>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <AnnotationText />
+              <DefaultAnnotationText>[vendor] &gt;= 300</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+        </Node>
+        <Node ToolID="22">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+            <Position x="330" y="210" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Expression>[vendor] &lt;= 400</Expression>
+              <Mode>Simple</Mode>
+              <Simple>
+                <Operator>&lt;=</Operator>
+                <Field>vendor</Field>
+                <Operands>
+                  <IgnoreTimeInDateTime>True</IgnoreTimeInDateTime>
+                  <DateType>fixed</DateType>
+                  <PeriodDate>2018-09-07 13:23:08</PeriodDate>
+                  <PeriodType>
+                  </PeriodType>
+                  <PeriodCount>0</PeriodCount>
+                  <Operand>400</Operand>
+                  <StartDate>2018-09-07 13:23:08</StartDate>
+                  <EndDate>2018-09-07 13:23:08</EndDate>
+                </Operands>
+              </Simple>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>[vendor] &lt;= 400</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+        </Node>
+        <Node ToolID="23">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+            <Position x="522" y="198" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <TempFile>C:\Users\Matthew\AppData\Local\Temp\Engine_11080_64a38a8ea3f34ee7bb737fbec82038d2_\Engine_20008_ba1c846f6f304b2f8530c88598f4d622_.yxdb</TempFile>
+              <TempFileDataProfiling />
+              <Layout>
+                <ViewMode>Single</ViewMode>
+                <ViewSize value="100" />
+                <View1>
+                  <DefaultTab>Profile</DefaultTab>
+                  <Hints>
+                    <Table />
+                  </Hints>
+                </View1>
+                <View2 />
+              </Layout>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+        </Node>
+        <Node ToolID="30">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+            <Position x="426" y="198" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <FormulaFields>
+                <FormulaField expression="[shelf_price]-[bottle_price]" field="Margin" size="1073741823" type="V_WString" />
+              </FormulaFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText><![CDATA[Margin = [shelf_price]-[bottle_price]
+]]></DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+        </Node>
+      </ChildNodes>
+    </Node>
+    <Node ToolID="40">
+      <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
+        <Position x="66" y="394" width="360" height="308" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Caption>MULTIPLE FILTERS</Caption>
+          <Style TextColor="#314c4a" FillColor="#ecf2f2" BorderColor="#314c4a" Transparency="25" Margin="25" />
+          <Disabled value="False" />
+          <Folded value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <ChildNodes>
+        <Node ToolID="31">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+            <Position x="91.00002" y="470" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Passwords>40569150D29D5E870A0B64C845255189A40C04D371D329CB535A5</Passwords>
+              <File RecordLimit="" FileFormat="23">odbc:DSN=PostgreSQL35W;UID=analytics_student;PWD=__EncPwd1__|||Select * From stores Limit 1000</File>
+              <FormatSpecificOptions>
+                <PreSQLOnConfig>True</PreSQLOnConfig>
+                <NoProgress>True</NoProgress>
+                <ReadUncommitted>False</ReadUncommitted>
+                <TableStyle>Quoted</TableStyle>
+                <PreSQL />
+                <PostSQL />
+              </FormatSpecificOptions>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <AnnotationText>Stores</AnnotationText>
+              <DefaultAnnotationText>DSN=PostgreSQL35W
+Table=Select * From stores Limit 1000</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+        </Node>
+        <Node ToolID="32">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+            <Position x="151" y="542" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Expression>[store_status] = A</Expression>
+              <Mode>Simple</Mode>
+              <Simple>
+                <Operator>=</Operator>
+                <Field>store_status</Field>
+                <Operands>
+                  <IgnoreTimeInDateTime>True</IgnoreTimeInDateTime>
+                  <DateType>fixed</DateType>
+                  <PeriodDate>2018-09-07 19:51:32</PeriodDate>
+                  <PeriodType>
+                  </PeriodType>
+                  <PeriodCount>0</PeriodCount>
+                  <Operand>A</Operand>
+                  <StartDate>2018-09-07 19:51:32</StartDate>
+                  <EndDate>2018-09-07 19:51:32</EndDate>
+                </Operands>
+              </Simple>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>[store_status] = A</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+        </Node>
+        <Node ToolID="33">
+          <GuiSettings Plugin="AlteryxSpatialPluginsGui.Summarize.Summarize">
+            <Position x="235" y="530" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <SummarizeFields>
+                <SummarizeField field="store" action="GroupBy" rename="store" />
+                <SummarizeField field="store" action="Count" rename="Active" />
+              </SummarizeFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxSpatialPluginsEngine.dll" EngineDllEntryPoint="AlteryxSummarize" />
+        </Node>
+        <Node ToolID="34">
+          <GuiSettings Plugin="AlteryxSpatialPluginsGui.Summarize.Summarize">
+            <Position x="235" y="614" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <SummarizeFields>
+                <SummarizeField field="store" action="GroupBy" rename="store" />
+                <SummarizeField field="store" action="Count" rename="Inactive" />
+              </SummarizeFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxSpatialPluginsEngine.dll" EngineDllEntryPoint="AlteryxSummarize" />
+        </Node>
+        <Node ToolID="35">
+          <GuiSettings Plugin="AlteryxSpatialPluginsGui.Summarize.Summarize">
+            <Position x="235" y="446" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <SummarizeFields>
+                <SummarizeField field="store" action="GroupBy" rename="store" />
+                <SummarizeField field="store" action="Count" rename="Total" />
+              </SummarizeFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxSpatialPluginsEngine.dll" EngineDllEntryPoint="AlteryxSummarize" />
+        </Node>
+        <Node ToolID="43">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+            <Position x="318" y="438" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Layout>
+                <View1>
+                  <Hints>
+                    <Table />
+                  </Hints>
+                </View1>
+              </Layout>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+        </Node>
+        <Node ToolID="44">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+            <Position x="342" y="534" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Layout>
+                <View1>
+                  <Hints>
+                    <Table />
+                  </Hints>
+                </View1>
+              </Layout>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+        </Node>
+        <Node ToolID="45">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+            <Position x="330" y="618" />
+          </GuiSettings>
+          <Properties>
+            <Configuration />
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+        </Node>
+      </ChildNodes>
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="19" Connection="Output" />
+      <Destination ToolID="20" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="20" Connection="Output" />
+      <Destination ToolID="21" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="21" Connection="True" />
+      <Destination ToolID="22" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="22" Connection="True" />
+      <Destination ToolID="30" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="30" Connection="Output" />
+      <Destination ToolID="23" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="31" Connection="Output" />
+      <Destination ToolID="32" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="31" Connection="Output" />
+      <Destination ToolID="35" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="32" Connection="True" />
+      <Destination ToolID="33" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="32" Connection="False" />
+      <Destination ToolID="34" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="33" Connection="Output" />
+      <Destination ToolID="44" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="34" Connection="Output" />
+      <Destination ToolID="45" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="35" Connection="Output" />
+      <Destination ToolID="43" Connection="Input" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>03_MATH_AGGREGATES_blank</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+  </Properties>
+</AlteryxDocument>

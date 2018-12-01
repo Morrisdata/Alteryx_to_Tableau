@@ -1,0 +1,332 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="2018.3">
+  <Nodes>
+    <Node ToolID="3">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="54" y="54" width="804" height="60" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>SELECT, LIMIT, WHERE, ORDER BY</Text>
+          <Font name="Segoe UI" size="20.25" style="0" />
+          <TextColor name="White" />
+          <FillColor r="22" g="145" b="198" />
+          <Shape shape="0" />
+          <Justification Justification="0" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="4">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="486" y="54" width="516" height="60" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>INPUT DATA, CONTAINERS, BROWSE, OUTPUT DATA</Text>
+          <Font name="Segoe UI" size="9" style="0" />
+          <TextColor name="White" />
+          <FillColor r="111" g="111" b="111" />
+          <Shape shape="3" />
+          <Justification Justification="0" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="5">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="54" y="942" width="804" height="60" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text><![CDATA[ More Info]]></Text>
+          <Font name="Segoe UI" size="14.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor r="238" g="238" b="238" />
+          <Shape shape="0" />
+          <Justification Justification="0" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="6">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="270" y="942" width="576" height="60" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Containers are a great way to organize your data flows and dictate what will run and what will not run</Text>
+          <Font name="Segoe UI" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="3" />
+          <Justification Justification="0" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="8">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="54" y="1038" width="804" height="108" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>EXERCISE</Text>
+          <Font name="Segoe UI" size="20.25" style="0" />
+          <TextColor name="White" />
+          <FillColor r="22" g="145" b="198" />
+          <Shape shape="0" />
+          <Justification Justification="0" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="9">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="366" y="1038" width="492" height="108" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Use the sales table and find the top 10 items for Adair County with names containing Vodka</Text>
+          <Font name="Segoe UI" size="9" style="0" />
+          <TextColor name="White" />
+          <FillColor r="111" g="111" b="111" />
+          <Shape shape="3" />
+          <Justification Justification="0" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="12">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="534" y="174" width="492" height="240" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text><![CDATA[LIMIT - For now limit has to be done in the SQL EDITOR later on you can get to this using 2 nodes( record ID and Filter) It is always a great idea to limit your data as you are testing and developing and its also great to use with sort to get your top n or bottom n                                    
+
+SELECT - Here you can omit fields you don't want to see, easily CAST them as different data types and rename your fields.
+
+
+WHERE
+Using filters you can create a basic filter or custom filters.             
+
+Connect to Products change the annotation, 
+Use SQL editor
+Filter for vendors >=300 and filter for vendors <= 400                      ]]></Text>
+          <Font name="Segoe UI" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="3" />
+          <Justification Justification="3" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="13">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="66" y="138" width="564" height="24" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>LIMIT, SELECT AND MULTIPLE FILTERS</Text>
+          <Font name="Segoe UI" size="9.75" style="0" />
+          <TextColor name="White" />
+          <FillColor r="22" g="145" b="198" />
+          <Shape shape="0" />
+          <Justification Justification="0" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="23">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="78" y="426" width="564" height="24" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>MULTIPLE FILTERS ONE NODE</Text>
+          <Font name="Segoe UI" size="9.75" style="0" />
+          <TextColor name="White" />
+          <FillColor r="22" g="145" b="198" />
+          <Shape shape="0" />
+          <Justification Justification="0" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="24">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="462" y="462" width="492" height="72" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text><![CDATA[CUSTOM FILTER  - We can place multiple filters into one  ]]></Text>
+          <Font name="Segoe UI" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="3" />
+          <Justification Justification="3" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="32">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="582" y="690" width="492" height="72" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>ORDER BY -  The Sort node is pretty straight forward. Try sorting ascending by Vendor and descending  by shelf price</Text>
+          <Font name="Segoe UI" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="3" />
+          <Justification Justification="3" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="53">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="90" y="642" width="564" height="24" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>EXAMPLE OF IN AND ORDER BY</Text>
+          <Font name="Segoe UI" size="9.75" style="0" />
+          <TextColor name="White" />
+          <FillColor r="22" g="145" b="198" />
+          <Shape shape="0" />
+          <Justification Justification="0" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="52">
+      <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
+        <Position x="90" y="690" width="151.4704" height="50" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Caption>OUTPUT DATA</Caption>
+          <Style TextColor="#314c4a" FillColor="#ecf2f2" BorderColor="#314c4a" Transparency="25" Margin="25" />
+          <Disabled value="False" />
+          <Folded value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <ChildNodes />
+    </Node>
+    <Node ToolID="47">
+      <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
+        <Position x="78" y="462" width="254.3" height="50" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Caption>MULTIPLE FILTERS IN ONE NODE</Caption>
+          <Style TextColor="#314c4a" FillColor="#ecf2f2" BorderColor="#314c4a" Transparency="25" Margin="25" />
+          <Disabled value="False" />
+          <Folded value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <ChildNodes />
+    </Node>
+  </Nodes>
+  <Connections />
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>02_SELECT_LIMIT_WHERE_blank</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+  </Properties>
+</AlteryxDocument>

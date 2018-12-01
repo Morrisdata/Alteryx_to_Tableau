@@ -1,0 +1,308 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="2018.3">
+  <Nodes>
+    <Node ToolID="6">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="366" y="198" width="492" height="108" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>INPUT DATA - once you drag this tool into the canvas, you can now do a lot in the configuration pane.  First we will want to make a connection. Once you make the connection you will get several Query editors that become available to you. NOTICE the grey icon shortcuts to the side of configuration pane. Annotate and Help are great!
+
+Connect to Counties, Use Annotate to change the name to Counties</Text>
+          <Font name="Segoe UI" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="3" />
+          <Justification Justification="3" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="7">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="294" y="162" width="588" height="24" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>INPUT DATA, CONTAINERS</Text>
+          <Font name="Segoe UI" size="9.75" style="0" />
+          <TextColor name="White" />
+          <FillColor r="22" g="145" b="198" />
+          <Shape shape="0" />
+          <Justification Justification="0" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="8">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="54" y="54" width="804" height="60" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>INPUT AND CONTAINERS</Text>
+          <Font name="Segoe UI" size="20.25" style="0" />
+          <TextColor name="White" />
+          <FillColor r="22" g="145" b="198" />
+          <Shape shape="0" />
+          <Justification Justification="0" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="9">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="366" y="54" width="492" height="60" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>INPUT DATA, CONTAINERS, BROWSE, OUTPUT DATA</Text>
+          <Font name="Segoe UI" size="9" style="0" />
+          <TextColor name="White" />
+          <FillColor r="111" g="111" b="111" />
+          <Shape shape="3" />
+          <Justification Justification="0" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="11">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="90" y="954" width="804" height="60" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text><![CDATA[ More Info]]></Text>
+          <Font name="Segoe UI" size="14.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor r="238" g="238" b="238" />
+          <Shape shape="0" />
+          <Justification Justification="0" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="12">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="306" y="954" width="576" height="60" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Containers are a great way to organize your data flows and dictate what will run and what will not run</Text>
+          <Font name="Segoe UI" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="3" />
+          <Justification Justification="0" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="14">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="54" y="126" width="252" height="24" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>1) BASIC WORKFLOW</Text>
+          <Font name="Segoe UI" size="8.25" style="1" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="1" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="16">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="90" y="1050" width="804" height="108" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>EXERCISE</Text>
+          <Font name="Segoe UI" size="20.25" style="0" />
+          <TextColor name="White" />
+          <FillColor r="22" g="145" b="198" />
+          <Shape shape="0" />
+          <Justification Justification="0" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="17">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="402" y="1050" width="492" height="108" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Create a workflow that connects to products, Change the annotation to only say products,Place a browse onto your workflow and output to a .csv, Disable the counties example that was run in class.  Run your new workflow and check your .csv to ensure it is working. Repeat this process for Stores. When you run the stores workflow be sure to disable all other workflows. If you finish early assist the student next to you.</Text>
+          <Font name="Segoe UI" size="9" style="0" />
+          <TextColor name="White" />
+          <FillColor r="111" g="111" b="111" />
+          <Shape shape="3" />
+          <Justification Justification="0" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="22">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="366" y="402" width="492" height="72" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>BROWSE DATA - This is a great tool for metadata and debugging, however it can chew up resources.</Text>
+          <Font name="Segoe UI" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="3" />
+          <Justification Justification="3" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="23">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="294" y="366" width="588" height="24" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>BROWSE</Text>
+          <Font name="Segoe UI" size="9.75" style="0" />
+          <TextColor name="White" />
+          <FillColor r="22" g="145" b="198" />
+          <Shape shape="0" />
+          <Justification Justification="0" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="24">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="366" y="666" width="492" height="72" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text><![CDATA[OUTPUT DATA - You can output to several formats in one shot. Pretty great!
+
+Try outputting to a tde file and a csv at the same time. ]]></Text>
+          <Font name="Segoe UI" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="3" />
+          <Justification Justification="3" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="25">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="294" y="630" width="588" height="24" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>OUTPUT DATA</Text>
+          <Font name="Segoe UI" size="9.75" style="0" />
+          <TextColor name="White" />
+          <FillColor r="22" g="145" b="198" />
+          <Shape shape="0" />
+          <Justification Justification="0" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+  </Nodes>
+  <Connections />
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>01_INPUT_CONTAINERS_BROWSE_OUTPUT_ blank</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+  </Properties>
+</AlteryxDocument>
